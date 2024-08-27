@@ -1,0 +1,36 @@
+.navbar-post {
+  padding-top: 15px;
+  background-color: #f3f1e5 !important;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  @include media-breakpoint-down(md) {
+    background-color: #f3f1e5 !important;
+  }
+
+  .nav-item {
+    .nav-link {
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      color: #878f78;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+
+      &.active {
+        font-weight: 500;
+        font-size: 16px;
+        color: #5d6953;
+        // border-bottom: 2px solid #5d6953;
+        background: none;
+      }
+    }
+  }
+
+  .navbar-fixed-top.scrolled {
+    background-color: #f3f1e5 !important;
+  }
+}

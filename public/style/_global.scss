@@ -1,0 +1,46 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f3f1e5;
+}
+
+.page-content {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #5d6953;
+  margin-top: 150px;
+
+  p {
+    color: #f3f1e5;
+  }
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #5d6953;
+  background: #f3f1e5;
+}
+
+.form-title {
+  color: #5d6953;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.btn-create-post {
+  background: linear-gradient(90deg, #bdc6b5 0%, #878f78 50%, #5d6953 100%);
+  border-radius: 28px;
+  border: none;
+  color: #f9f8f2;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 16px;
+
+  &:hover {
+    background: transparent;
+    border: 1px solid #5d6953;
+    color: #5d6953;
+  }
+}

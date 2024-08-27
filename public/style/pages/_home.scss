@@ -1,0 +1,24 @@
+.page-home {
+  .row-hero {
+    min-height: 70vh;
+  }
+
+  .section-post-hero {
+    h2 {
+      color: #5d6953;
+      font-size: 38px;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 28px;
+    }
+
+    p {
+      color: #667058;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      margin-bottom: 32px;
+    }
+  }
+}

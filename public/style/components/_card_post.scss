@@ -1,0 +1,50 @@
+.card-post {
+  margin-bottom: 15px;
+  border-radius: 16px;
+  border: 1px solid #5d6953;
+  background-color: transparent;
+
+  .card-body {
+    .post-title {
+      color: #5d6953;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .post-title-detail {
+      color: #5d6953;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .post-author {
+      color: #878f78;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .post-date {
+      color: #878f78;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .post-content-article {
+      color: #5d6953;
+      font-family: "Source Serif Pro";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: justify;
+    }
+  }
+}
